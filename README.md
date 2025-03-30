@@ -15,7 +15,7 @@ Target Variable:
 ## 🔍 Data Preprocessing
 1. Checked for missing values (None found ✅)
 2. Performed **Multicollinearity Check** (VIF values: TV=2, Radio=3, Newspaper=3 ✅)
-3. **Feature Scaling** using **MinMaxScaler** for both inputs (X) and outputs (y)
+3. **Feature Scaling** using **StandardScaler** for both inputs (X) and outputs (y)
 
 ## 📊 Model Building
 1. **Simple Linear Regression** (One feature at a time)
@@ -31,18 +31,11 @@ Target Variable:
      - L1 (Lasso): **0.886**
      - Elastic Net: **0.879**
 
-## 🏆 Best Model Selection
+## 🏆 Model Selection
 The **Multiple Linear Regression model without regularization (R² = 0.89)** performed the best and was selected for deployment.
-
-## 🚀 Deployment with Streamlit
-A **Streamlit-based web UI** was created for user interaction. The app:
-1. Takes user inputs for TV, Radio, and Newspaper ad spend.
-2. **Normalizes inputs** using MinMaxScaler.
-3. Predicts sales revenue using the trained model.
-4. **Denormalizes the output** before displaying the result.
 
 ## 🛠️ Installation & Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/sales-prediction.git
+   git clone https://github.com/tanishra/sales-prediction.git
    cd sales-prediction
