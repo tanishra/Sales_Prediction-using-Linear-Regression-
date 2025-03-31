@@ -39,3 +39,31 @@ The **Multiple Linear Regression model without regularization (R² = 0.89)** per
    ```bash
    git clone https://github.com/tanishra/sales-prediction.git
    cd sales-prediction
+
+2. Install Dependencies:
+   '''bash
+   pip install -r requirements.txt
+
+3. Run the streamlit app:
+    '''bash 
+    streamlit run app.py
+
+## 🔮 Future Improvements
+
+- Try Polynomial Regression for better accuracy
+- Include more features (e.g., social media ads, online ads)
+- Deploy on AWS/GCP for live use
+
+## 🤝 Contributing
+Feel free to contribute to this project! If you have ideas for improvements, bug fixes, or feature additions, follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature or fix.
+
+3. Commit your changes with a clear message.
+
+4. Push to your branch and create a pull request.
+
+Your contributions are highly appreciated! 😊
+
