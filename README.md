@@ -42,7 +42,7 @@ The **Multiple Linear Regression model without regularization (R² = 0.89)** per
 
 2. Install Dependencies:
    ```bash
-   pip install -r requireme`ts.txt
+   pip install -r requirements.txt
 
 3. Run the streamlit app:
     ```bash 
