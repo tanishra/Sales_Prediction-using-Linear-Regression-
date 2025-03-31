@@ -41,11 +41,11 @@ The **Multiple Linear Regression model without regularization (R² = 0.89)** per
    cd sales-prediction
 
 2. Install Dependencies:
-   '''bash
-   pip install -r requirements.txt
+   ```bash
+   pip install -r requireme`ts.txt
 
 3. Run the streamlit app:
-    '''bash 
+    ```bash 
     streamlit run app.py
 
 ## 🔮 Future Improvements
